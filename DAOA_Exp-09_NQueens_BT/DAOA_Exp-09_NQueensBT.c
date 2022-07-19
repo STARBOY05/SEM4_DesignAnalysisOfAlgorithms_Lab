@@ -16,19 +16,6 @@ void display(int n)
                 printf("%d ", board[i]);
         }
     }
-    // for (i = 1; i <= n; i++)
-    //     printf("\t%d", i);
-    // for (i = 1; i <= n; i++)
-    // {
-    //     printf("\n%d", i);
-    //     for (j = 1; j <= n; j++)
-    //     {
-    //         if (board[i] == j)
-    //             printf("\tQ%d", i);
-    //         else
-    //             printf("\t*");
-    //     }
-    // }
     printf("\n");
 }
 

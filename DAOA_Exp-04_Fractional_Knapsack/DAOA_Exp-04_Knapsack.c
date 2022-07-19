@@ -82,7 +82,6 @@ void knapsack()
 	//	While current weight < Max Capacity
 	while (L1.data[i].weight <= M)
 	{
-		printf("%d", L1.data[i].weight);
 		//	If adding the next weight leads to excess => break
 		if ((w + L1.data[i].weight) > M)
 			break;
